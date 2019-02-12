@@ -37,6 +37,7 @@ public class AddCommandTest {
         }
     }
 
+
     @Test
     public void addCommand_invalidPhone_throwsException() {
         final String[] invalidNumbers = { "", " ", "1234-5678", "[]\\[;]", "abc", "a123", "+651234" };
